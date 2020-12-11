@@ -1,0 +1,155 @@
+{
+  "items": [
+    {
+      "id": "REST-authorize?client_id=910c9e46-e5b0-424e-b52c-78de5108acae",
+      "interfaceType": "REST",
+      "links": [
+        {
+          "rel": "catalog",
+          "href": "https://authserver.bluebeam.com/auth/oauth/authorize?client_id=910c9e46-e5b0-424e-b52c-78de5108acae/resources/latest/describe",
+          "mediaType": "application/vnd.oracle.adf.description+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/interfaceCatalogs/REST-authorize?client_id=910c9e46-e5b0-424e-b52c-78de5108acae",
+          "mediaType": null
+        }
+      ]
+    },
+    {
+      "id": "REST-publicapi",
+      "interfaceType": "REST",
+      "links": [
+        {
+          "rel": "catalog",
+          "href": "https://studioapi.bluebeam.com/publicapi/resources/latest/describe",
+          "mediaType": "application/vnd.oracle.adf.description+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/interfaceCatalogs/REST-publicapi",
+          "mediaType": null
+        }
+      ]
+    },
+    {
+      "id": "REST-crmRestApp",
+      "interfaceType": "REST",
+      "links": [
+        {
+          "rel": "catalog",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/crmRestApi/resources/latest/describe",
+          "mediaType": "application/vnd.oracle.adf.description+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/interfaceCatalogs/REST-crmRestApp",
+          "mediaType": null
+        }
+      ]
+    },
+    {
+      "id": "REST-hcmRestApp",
+      "interfaceType": "REST",
+      "links": [
+        {
+          "rel": "catalog",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/latest/describe",
+          "mediaType": "application/vnd.oracle.adf.description+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/interfaceCatalogs/REST-hcmRestApp",
+          "mediaType": null
+        }
+      ]
+    },
+    {
+      "id": "REST-FSMIdentity",
+      "interfaceType": "REST",
+      "links": [
+        {
+          "rel": "catalog",
+          "href": "https://login-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/FSMIdentity/resources/latest/describe",
+          "mediaType": "application/vnd.oracle.adf.description+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/interfaceCatalogs/REST-FSMIdentity",
+          "mediaType": null
+        }
+      ]
+    },
+    {
+      "id": "REST-fscmRestApp",
+      "interfaceType": "REST",
+      "links": [
+        {
+          "rel": "catalog",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/latest/describe",
+          "mediaType": "application/vnd.oracle.adf.description+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/interfaceCatalogs/REST-fscmRestApp",
+          "mediaType": null
+        }
+      ]
+    },
+    {
+      "id": "REST-advancedPlanningApp",
+      "interfaceType": "REST",
+      "links": [
+        {
+          "rel": "catalog",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/advancedPlanningApi/resources/latest/describe",
+          "mediaType": "application/vnd.oracle.adf.description+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/interfaceCatalogs/REST-advancedPlanningApp",
+          "mediaType": null
+        }
+      ]
+    },
+    {
+      "id": "REST-hcmSemSearchApp",
+      "interfaceType": "REST",
+      "links": [
+        {
+          "rel": "catalog",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmSemSearchApi/resources/latest/describe",
+          "mediaType": "application/vnd.oracle.adf.description+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/interfaceCatalogs/REST-hcmSemSearchApp",
+          "mediaType": null
+        }
+      ]
+    },
+    {
+      "id": "SOAP",
+      "interfaceType": "SOAP",
+      "links": [
+        {
+          "rel": "catalog",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/soapCatalog?groups=client.cloud",
+          "mediaType": null
+        },
+        {
+          "rel": "self",
+          "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/interfaceCatalogs/SOAP",
+          "mediaType": null
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://fa-eofx-dev2-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/otherResources/latest/interfaceCatalogs",
+      "mediaType": null
+    }
+  ]
+}
