@@ -26,7 +26,7 @@ public class HttpCtl {
     ResponseEntity<?> ddd(HttpServletRequest request,
                           HttpServletResponse response) {
         try {
-
+            print(request);
             System.out.println("GET->" + request.getRequestURL() + "?" + request.getQueryString());
 
             if (request.getRequestURI().endsWith("soa-infra/PublicEvent/catalog")) {
@@ -97,9 +97,10 @@ public class HttpCtl {
 
     public static void print(HttpServletRequest request) {
         Enumeration<String> headerNames = request.getHeaderNames();
+        System.out.println("Http Header ");
         while (headerNames.hasMoreElements()) {
             String headerName = headerNames.nextElement();
-            System.out.println("Header Name - " + headerName + ", Value - " + request.getHeader(headerName));
+            System.out.println(headerName + "->" + request.getHeader(headerName));
         }
     }
 
